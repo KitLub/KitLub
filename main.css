@@ -1,0 +1,48 @@
+
+body {
+	background-color: #ffffff;
+	}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: red;
+	font-family: Times new roman;
+	text-decoration: underline;
+	text-align: center;
+}    
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: blue; 
+	font-family: Arial;
+    text-decoration: underline;
+}  
+p {
+	font-style: italic;
+	margin: 20px;
+}  
+div {
+	width: 50%;
+	margin: auto;
+	box-shadow: 20px -20px 7px 0px
+	purple;
+	padding: 50px;
+}
+img {
+	max-width: 100%;
+}
+a{
+	font-size: 17px;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{color: #ffffff;}
+/*a:visited{color: purple;}*/
+a:active{color: #000000;}
+ul{
+	list-style-type: square;
+	list-style-image: url("img/marker2.png");
+}
+ol{
+	list-style-image: url("img/marker1.gif");
+}
